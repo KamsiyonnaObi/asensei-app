@@ -1,0 +1,28 @@
+[
+    {
+      "title": "Dumbbell flyes",
+      "subtitle": "A chest exercise that targets the pectoral muscles by horizontally extending the arms with dumbbells.",
+      "img": "assets/exercises-images/dumbbell-flyes.jpg"
+    },
+    {
+      "title": "Bicycle crunches",
+      "subtitle": "An abdominal exercise that involves alternating knee-to-elbow movements to engage the core muscles and obliques.",
+      "img": "assets/exercises-images/crunches.jpg"
+    },
+    {
+      "title": "Shoulder press",
+      "subtitle": "A strength-training exercise that focuses on the shoulder muscles by pressing dumbbells or a barbell overhead.",
+      "img": "assets/exercises-images/dead-lift.jpg"
+    },
+    {
+      "title": "Renegade rows",
+      "subtitle": "A compound exercise that combines a plank position with alternating rows using dumbbells, targeting the back, core, and arms.",
+      "img": "assets/exercises-images/renegade-rows.jpg"
+    },
+    {
+      "title": "Yoga",
+      "subtitle": "A mind-body practice that incorporates physical postures, breathing exercises, and meditation, promoting flexibility, strength, relaxation, and overall well-being.",
+      "img": "assets/exercises-images/yoga.jpg"
+    }
+  ]
+  

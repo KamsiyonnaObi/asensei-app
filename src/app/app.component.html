@@ -1,3 +1,58 @@
 <ion-app>
+  <ion-menu contentId="main-content">
+    <!-- Menu content -->
+    <ion-header>
+      <ion-toolbar>
+        <ion-item>
+            <img alt="ASENSEI" src="assets/asensei-text.png" />
+        </ion-item>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content class="ion-padding">
+      <ion-item (click)="navigateTo('home')">
+        <ion-avatar slot="start">
+          <ion-icon class="large-icon" name="home"></ion-icon>
+        </ion-avatar>
+        <ion-label> Home </ion-label>
+      </ion-item>
+      <ion-item (click)="navigateTo('exercises')">
+        <ion-avatar slot="start">
+          <ion-icon class="large-icon" name="barbell"></ion-icon>
+        </ion-avatar>
+        <ion-label> Exercises </ion-label>
+      </ion-item>
+      <ion-item (click)="navigateTo('about-us')">
+        <ion-avatar slot="start">
+          <ion-icon class="large-icon" name="person-circle-outline"></ion-icon>
+        </ion-avatar>
+        <ion-label> About Us </ion-label>
+      </ion-item>
+    </ion-content>
+  </ion-menu>
+  
+  <ion-header>
+    <ion-toolbar>
+      <div class="ion-page" id="main-content">
+        <ion-header>
+          <ion-toolbar>
+            <ion-buttons slot="start">
+              <ion-menu-button>
+                <ion-icon name="menu-outline"></ion-icon>
+              </ion-menu-button>
+            </ion-buttons>
+          </ion-toolbar>
+        </ion-header>
+      </div>
+      <ion-buttons slot="end">
+        <ion-button >
+          <ion-icon name="notifications"></ion-icon>
+        </ion-button>
+        <ion-button >
+          <ion-icon name="person"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+
   <ion-router-outlet></ion-router-outlet>
 </ion-app>
